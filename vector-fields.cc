@@ -515,7 +515,7 @@ int main(int argc, char** argv)
  OpenGL_Display::SetInitializeFunction(Init);
  OpenGL_Display::SetDrawFunction(Draw);
  OpenGL_Display::SetReshapeFunction(Reshape);
- OpenGL_Display::SetKeyboardFunction(Keyboard);
+ //OpenGL_Display::SetKeyboardFunction(Keyboard);
  OpenGL_Display::SetIdleFunction(idle);
  OpenGL_Display::SetMouseFunction(Mouse);
  OpenGL_Display::SetMouseMotionFunction(MouseMotion);
